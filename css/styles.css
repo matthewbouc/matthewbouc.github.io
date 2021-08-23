@@ -11462,16 +11462,12 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .profileImg {
-  display: inline;
-  margin: 0 auto;
+  display: flex;
   width: 75%;
-  object-fit: cover;
-  border-radius: 12px;
+  border-radius: 50%;
+  position: relative;
   margin-top: 10px;
   margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
-  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
